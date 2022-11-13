@@ -1,4 +1,4 @@
-package model;
+package edu.westga.cs3211.collectibleManager.model;
 
 /**
  * The collectible class
