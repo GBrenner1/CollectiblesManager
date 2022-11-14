@@ -50,4 +50,8 @@ public class Collection {
 	public boolean removeCollectible(Collectible collectible) {
 		return this.collection.remove(collectible);
 	}
+	
+	public void clear() {
+		this.collection.clear();
+	}
 }
