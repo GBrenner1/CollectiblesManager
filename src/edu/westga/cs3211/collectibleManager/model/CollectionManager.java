@@ -65,7 +65,7 @@ public class CollectionManager {
 			userCollection.clear();
 		}
 		
-		String getCollectibles = "SELECT * FROM Collectible";
+		String getCollectibles = "SELECT * FROM collectibles";
 		
 		try (Connection connection = DataBaseManager.connectToDataBase()){
 			Statement statement = connection.createStatement();

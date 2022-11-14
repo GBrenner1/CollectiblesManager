@@ -57,4 +57,10 @@ public class Collectible {
 	public String getCondition() {
 		return this.condition;
 	}
+	
+	@Override
+	public String toString() {
+		return this.name + " " + this.condition;
+		
+	}
 }

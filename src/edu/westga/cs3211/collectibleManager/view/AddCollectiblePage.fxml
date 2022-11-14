@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="edu.westga.cs3211.collectibleManager.viewModel.AddCollectiblePageViewModel">
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.westga.cs3211.collectibleManager.viewModel.AddCollectiblePageViewModel">
    <children>
       <AnchorPane layoutX="-77.0" prefHeight="252.0" prefWidth="318.0">
          <children>
@@ -14,7 +13,7 @@
             <TextField fx:id="conditionTextBox" layoutX="157.0" layoutY="113.0" />
             <Text layoutX="90.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Collectible:" />
             <Text layoutX="91.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Condition:" />
-            <Button fx:id="addCollectibleButton" layoutX="171.0" layoutY="148.0" mnemonicParsing="false" text="Add" />
+            <Button fx:id="addCollectibleButton" layoutX="171.0" layoutY="148.0" mnemonicParsing="false" onAction="#addCollectible" text="Add" />
          </children>
       </AnchorPane>
    </children>

@@ -9,7 +9,7 @@
       <AnchorPane prefHeight="412.0" prefWidth="585.0">
          <children>
             <ListView fx:id="collectionListView" layoutX="160.0" layoutY="24.0" prefHeight="364.0" prefWidth="411.0" />
-            <Button fx:id="addCollectibleButton" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Add collectible" />
+            <Button fx:id="addCollectibleButton" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#changeView" prefHeight="25.0" prefWidth="121.0" text="Add collectible" />
          </children>
       </AnchorPane>
    </children>
